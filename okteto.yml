@@ -4,4 +4,4 @@ command: bash
 sync:
 - .:/usr/src/app
 forward:
-- 8080:8080
+- 8080:32400

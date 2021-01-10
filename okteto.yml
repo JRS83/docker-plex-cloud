@@ -1,0 +1,7 @@
+name: docker-plex-cloud
+image: okteto/dev:latest
+command: bash
+sync:
+- .:/usr/src/app
+forward:
+- 8080:8080

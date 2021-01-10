@@ -69,7 +69,7 @@ RUN apt-get update && \
 #
 # RCLONE
 #
-ARG RCLONE_URL=https://beta.rclone.org/v1.43-172-g83b1ae48-beta/rclone-v1.43-172-g83b1ae48-beta-linux-amd64.zip
+ARG RCLONE_URL=https://beta.rclone.org/rclone-beta-latest-linux-amd64.zip
 
 RUN apt-get update && \
     apt-get install \
